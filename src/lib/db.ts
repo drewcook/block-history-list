@@ -7,7 +7,9 @@ import logger from './logger'
  * in development. This prevents connections growing exponentially
  * during API Route usage.
  */
+// @ts-ignore
 let cached = global.mongoose
+// @ts-ignore
 if (!cached) cached = global.mongoose = { conn: null, promise: null }
 
 const connectToMongo = async () => {

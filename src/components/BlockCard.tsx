@@ -1,9 +1,9 @@
 import { Box, Card, CardContent, Typography } from '@mui/material'
 
-import { Block } from '@/lib/types'
+import { IBlock } from '@/lib/models'
 
 type BlockCardProps = {
-	block: Block
+	block: IBlock
 }
 
 const styles = {
