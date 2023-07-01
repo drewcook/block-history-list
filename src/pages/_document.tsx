@@ -4,10 +4,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<meta
-					name="description"
-					content="The Arbor Protocol is a collaborative, music-making experience where artists can create music NFTs and benefit from split revenue and royalties via collectors."
-				/>
+				<meta name="description" content="The latest blocks on Sepolia testnet" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
